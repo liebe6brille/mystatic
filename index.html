@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = " " href=" "  type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel ="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+  <body>
+   <center>
+       <header>
+  <h1>Welcome To Harish's Portfolio!! a <span id ="about-me"></span></h1>
+  <p><emp>"</emp>Good fashion is how to reveal the things artistically!<emp>"</emp></p>
+   <h3>About-Me</h3>
+     <p>Hello I am Harish, a data researcher and analyst</p>
+     <img src = "C:\Users\lenovo\OneDrive\Pictures\HARRIS.jpg" alt="Hary">
+  </header>
+   
+   <section>
+     <h2>Contact-Info</h2>
+     <p> Get In Touch and explore exciting features</p><br>
+     <a href="h1992k2002k@gmail.com" class ="icon-link email-icon"><i class ="fa fa-envelope"></i></a> | <a href = "https://www.linkedin.com/in/harish-kumar-39a01191" class ="icon-link linkedin-icon"><i class ="fa fa-linkedin" ></i></a>
+     
+  </section>
+     
+     <section>
+  <form>
+     <h2>Contact Me</h2><br>
+     <label for = "name">Name:</label>
+     <input type ="text" id ="name" name = "name" placeholder="Your Name"required><br><br>
+      <label for = "email">Email:</label>
+     <input type ="email" id ="email" name = "email" placeholder="hkk952780@gmail.com"required><br><br>
+       <label for = "message">Message:</label>
+     <textarea id ="message" name="message" placeholder="message"></textarea><br><br>
+  
+     <button type = "send">SUBMIT</button>     
+  </form>
+  
+  </section>
+     
+     <section>
+          <h2>My-Skills</h2>
+          <table align ="center">
+             <tr>
+                 <td>
+                    <ul text-align="left">
+                       <li>Web Development </li>
+                          <li>UX/UI</li>
+  
+                   <li> Data Visualization</li>
+  
+                         <li>Scripting</li>
+  
+                           <li>SQL</li>
+  
+                          <li>Data Analysis</li>
+  
+                             <li>R/Python</li>
+                             <li>Excel</li>
+  
+  
+                    </ul>
+  
+                 </td>
+             </tr>
+  
+          </table>
+     </section>
+     
+     <section>
+      <h2>My-Projects</h2>
+      <p>Have a Glimpse of my Cache!</P>
+         <div id = "projects">
+            <div class ="contour">
+               <div class = "contour content">
+                  <img src = "C:\Users\lenovo\OneDrive\Pictures\Screenshots\Screenshot (786).png">
+                  <h3><Project 1 title></h3>
+                     <p>project descriptions</p>
+                     <a href = "project_html" class ="btn">Know More..</a>
+                  </div>
+               </div>
+               <div class ="contour">
+                  <div class = "contour content">
+                     <img src ="C:\Users\lenovo\OneDrive\Pictures\Screenshots\Screenshot (789).png" >
+                     <h3><Project 2 title></h3>
+                        <p>project descriptions</p>
+                        <a href = "project_html" class ="btn">Know More..</a>
+                     </div>
+                  </div>
+                  <div class ="contour">
+                     <div class = "contour content">
+                     
+                        <img src = "C:\Users\lenovo\OneDrive\Pictures\Screenshots\Screenshot (790).png">
+                        <h3><Project 3 title></h3>
+                           <p>project descriptions</p>
+                           <a href = "project_html" class ="btn">Know More..</a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+
+               <section>
+      <h2>Pro-Languages</h2>
+      <label for ="name">HTML Progress :</label>
+      
+      <progress id = "a" max="100" value ="90" text ="90%" aria-level ="content-loading">90%</progress><br><br>
+      <div aria-busy="true" aria-describedby ="a"></div>
+      <label for ="b">CSS Progress :</label>
+      <progress id = "b" max="100" value ="70">70%</progress><br><br>
+      
+      <label for ="c">Java Script :</label>
+      <progress id = "c" max="100" value ="50" >50%</progress><br><br>
+      
+      <label for ="d">R-Progress :</label>
+      <progress id = "d" max="100" value ="50" >50%</progress><br><br>
+      </section>
+ 
+  <section>
+  <h2>Portfolio</h2>
+  <p>Things of interest to me!</p>
+  <iframe src = "C:\Users\lenovo\Videos\Captures\JOBAAJ WALMART 2024-07-15 19-40-15.mp4"></iframe>
+     <iframe src = "C:\Users\lenovo\OneDrive\YNswitch.html"></iframe>
+     <iframe width="260" height="175" src="https://www.youtube.com/embed/yWmhGZnx1g4?si=T_YiFF11qxCDpOZy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
+  
+  </section>
+     
+  
+  <footer>
+       <p><span>&copy; by Harish@Data-Researcher 2024, All rights reserved.</span></p>
+    </footer><br>
+    </center>
+   <script>
+   document.addEventListner('DOMContentLoaded', function() {
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+   const body = document.body;
+
+  darkModeToggle.addEventListner('click', () => {
+    body.classList.toggle('dark-mode-toggle');
+    const currentMode = body.classList.contains('dark-mode-toggle') ? 'Dark' : 'Light';
+    darkModeToggle.querySelector('i').classList.toggle('fa-car');
+    darkModeToggle.querySelector('i').classList.toggle('fa-cat');
+    darkModeToggle.querySelector('i').classList.toggle('light-mode');
+  });
+)};
+   </script>
+    
+</body>
+</html>
+
